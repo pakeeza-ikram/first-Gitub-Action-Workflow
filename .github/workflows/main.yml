@@ -6,6 +6,6 @@ on:
 jobs:
   demo:
     runs-on: ubuntu-latest
-     step:
+   step:
        - name: Greetings
          run: echo "hello from us"
