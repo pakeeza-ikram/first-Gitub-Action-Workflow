@@ -3,7 +3,7 @@ on:
   push:
    branches: [main]
  jobs:
-  demo:
+   demo:
     runs-on: ubuntu-latest
     step:
        - name: Greetings
