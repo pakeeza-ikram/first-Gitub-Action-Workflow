@@ -1,10 +1,13 @@
 name: HafiiXEmi
+
 on:
   push:
    branches: [main]
- jobs:
+   
+jobs:
    demo:
     runs-on: ubuntu-latest
-    step:
+    
+    steps:
        - name: Greetings
          run: echo "hello from us"
