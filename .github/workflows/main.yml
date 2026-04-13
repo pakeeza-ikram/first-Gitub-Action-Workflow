@@ -5,6 +5,6 @@ branches: [ main ]
 jobs:
   demo:
   runs-on: ubuntu-latest
-step:
+ step:
    -name: Greetings
-    run:echo "hello"
+    run: echo "hello"
